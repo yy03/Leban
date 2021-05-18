@@ -1,0 +1,23 @@
+server:
+  port: 8888
+
+spring:
+  rabbitmq:
+    host: 192.168.48.133
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual
+  mail:
+    host: smtp.163.com
+    protocol: smtp
+    default-encoding: utf-8
+    password: SKAIILIAAMOYAHIU
+    username: youngm03@163.com
+    port: 25
+  redis:
+    host: 192.168.48.133
+    port: 6379
